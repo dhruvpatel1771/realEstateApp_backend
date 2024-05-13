@@ -16,7 +16,7 @@ const server = http.createServer();
 const io = new Server({
   cors:{
   origin: (origin, callback) => {
-    if (!origin || origin === "https://estatefrontend-q20pz9exz-dhruv-patels-projects-5e029139.vercel.app") {
+    if (!origin || origin === " https://estatefrontend-fhne7fwk1-dhruv-patels-projects-5e029139.vercel.app") {
       callback(null, true); 
     } else {
       callback(new Error('Not allowed by CORS'));
