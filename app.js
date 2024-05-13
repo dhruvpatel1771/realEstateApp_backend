@@ -21,7 +21,7 @@ const server = http.createServer(app);
 // app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 // Allow requests from all origins
 // app.use(cors({ origin:"https://soft-selkie-2e64e3.netlify.app/", credentials: true }));
-app.use(cors({ origin : "https://estatefrontend-q20pz9exz-dhruv-patels-projects-5e029139.vercel.app", credentials: true}));
+app.use(cors({ origin : " https://estatefrontend-fhne7fwk1-dhruv-patels-projects-5e029139.vercel.app", credentials: true}));
 app.use(express.json());
 app.use(cookieParser());
 
